@@ -18,13 +18,8 @@ def main():
 
 
 def take_in_scores():
-    score = random_number()
+    score = random.randint(0, 100)
     return score
-
-
-def random_number():
-    number = random.randint(0, 100)
-    return number
 
 
 main()
