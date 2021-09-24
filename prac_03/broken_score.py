@@ -8,6 +8,7 @@ def main():
     else:
         if score > 100:
             print("Invalid score")
+
         if 50 <= score <= 90:
             print("Passable and your score is {}".format(score))
         if score > 90:
